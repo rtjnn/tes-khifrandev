@@ -12,7 +12,11 @@ import Footer from './components/footer/footer';
 
 export default function Home() {
   return (
-    <>
+    
+    <html lang="en">
+      <body className="overflow-x-hidden">
+       
+     
       <Navbar />
       <section id="home">
         <HomeSection />
@@ -33,6 +37,8 @@ export default function Home() {
       <section id="contact" className='bg-[#0e0d0d] max-h-screen'>
         <Footer />
       </section>
-    </>
+       </body>
+    </html>
+    
   );
 }
