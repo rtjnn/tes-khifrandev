@@ -41,7 +41,7 @@ const handleScroll = () => {
               {/* <!-- Logo --> */}
               <a
                 className="flex-none rounded-md text-xl inline-block font-semibold focus:outline-hidden focus:opacity-80"
-                href="../templates/agency/index.html"
+                href="#"
                 aria-label="Preline"
               >
                 K; Khifrandev
